@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Cards View</title>
+    <style>
+      body {
+        background-color: wheat;
+      }
+      #main-grid {
+        display: grid;
+        gap: 1em;
+        padding: 7em 0em 0em 0em;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+      }
+      #main-grid div {
+        height: 500px;
+        width: 350px;
+
+        position: relative;
+      }
+      h3 {
+        color: black;
+        text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
+        position: absolute;
+        padding-top: 3em;
+        padding-left: 5em;
+        font-weight: bolder;
+        font-size: larger;
+      }
+      img {
+        height: 500px;
+        width: 350px;
+        border-radius: 20px;
+        -webkit-transition: 400ms ease 100ms;
+        -moz-transition: 400ms ease 100ms;
+        transition: 200ms ease 100ms;
+        /*Object fit contains fits images what it contain into division block which resize according to given dimension*/
+        object-fit: contain;
+      }
+      div:hover img:not(:hover) {
+        filter: blur(10px);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-grid">
+      <div id="charminar1">
+        <h3>CHARMINAR</h3>
+        <img
+          id="i1"
+          src="https://e0.pxfuel.com/wallpapers/655/569/desktop-wallpaper-nbspthis-website-is-nbspcloud-server-monitoring-resources-and-information-landmarks-big-ben-charminar.jpg"
+        />
+      </div>
+      <div id="charminar2">
+        <h3>CHARMINAR</h3>
+        <img
+          id="i2"
+          src="https://e0.pxfuel.com/wallpapers/655/569/desktop-wallpaper-nbspthis-website-is-nbspcloud-server-monitoring-resources-and-information-landmarks-big-ben-charminar.jpg"
+        />
+      </div>
+      <div id="charminar3">
+        <h3>CHARMINAR</h3>
+        <img
+          id="i3"
+          src="https://e0.pxfuel.com/wallpapers/655/569/desktop-wallpaper-nbspthis-website-is-nbspcloud-server-monitoring-resources-and-information-landmarks-big-ben-charminar.jpg"
+        />
+      </div>
+      <div id="charminar4">
+        <h3>CHARMINAR</h3>
+        <img
+          id="i4"
+          src="https://e0.pxfuel.com/wallpapers/655/569/desktop-wallpaper-nbspthis-website-is-nbspcloud-server-monitoring-resources-and-information-landmarks-big-ben-charminar.jpg"
+        />
+      </div>
+    </div>
+  </body>
+</html>
