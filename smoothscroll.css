@@ -1,0 +1,33 @@
+* {
+  padding-top: 1em;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+html {
+  scroll-behavior: smooth;
+}
+#tc {
+  padding-top: 2em;
+}
+p {
+  justify-content: space-around;
+}
+dt {
+  font-weight: bolder;
+  font-size: 2em;
+}
+dd {
+  font-size: 1.4em;
+  padding-right: 28em;
+  padding-left: 5em;
+}
+li a:hover {
+  color: red;
+}
+body {
+  background-color: aliceblue;
+  margin-left: 5em;
+}
