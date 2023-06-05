@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+.flag {
+  background-color: red;
+  width: 900px;
+  height: 600px;
+  border: 2px solid white;
+}
+.txt {
+  height: 100px;
+  color: white;
+  font-size: 28pt;
+  font-weight: bolder;
+  padding-left: 370px;
+}
+.mid {
+  height: 300px;
+  background-color: royalblue;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  justify-content: center;
+}
+.txt1 {
+  font-size: 3.5em;
+
+  position: absolute;
+  top: 0px;
+  left: 19px;
+}
+.off {
+  font-size: 3.5em;
+  position: absolute;
+  top: -45px;
+  left: 40px;
+}
